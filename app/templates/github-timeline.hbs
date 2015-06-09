@@ -1,0 +1,18 @@
+<div id="container">
+  {{#each item in model}}
+    <div class="card">
+        <div class="card-header">
+          <img class="avatar" src={{item.actor_avatar_url}} />
+          <h3 class="login">{{item.actor_login}}</h3>
+        </div>
+        <div class="card-content">
+            <ul>
+                <li>Type: {{item.type}}</li>
+                <li>Action: {{item.action}}</li>
+                <li>Repo: {{item.repo_name}}</li>
+                <li>Created at: {{item.created_at}} </li>
+            </ul>
+        </div>
+    </div>
+  {{/each}}
+</div>
