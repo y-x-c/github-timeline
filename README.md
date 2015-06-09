@@ -2,7 +2,7 @@
 
 ## Introduction
 - Naive Github timeline
-- Just ugly and rough preview 
+- Just a ugly and rough preview 
 
 ## To do list
 
